@@ -10,7 +10,7 @@ terraform {
     organization = "su-sush" 
 
     workspaces { 
-      name = "tfcloudcli" 
+      name = "cloud-Terraform" 
     } 
   } 
 }
