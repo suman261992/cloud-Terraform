@@ -23,3 +23,7 @@ resource "aws_vpc" "main2" {
   cidr_block = "192.168.3.0/24"
  tags = {Name = "main2"}
 }
+resource "aws_vpc" "main3" {
+  cidr_block = "192.168.4.0/24"
+ tags = {Name = "suman"}
+}
