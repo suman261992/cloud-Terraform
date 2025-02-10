@@ -20,6 +20,7 @@ provider "aws" {
 resource "aws_vpc" "main1" {
   cidr_block = "192.168.2.0/24"
  tags = {Name = "main1}
+}
 resource "aws_vpc" "main2" {
   cidr_block = "192.168.3.0/24"
  tags = {Name = "main2"}
